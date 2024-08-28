@@ -119,6 +119,7 @@ export const ListContainer = ({ data, boardId }: ListContainerProps) => {
           boardId: boardId,
           items: reorderedCards,
         });
+        
         // User moves the card to another list
       } else {
         // Remove card from the source list
